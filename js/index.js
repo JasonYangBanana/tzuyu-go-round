@@ -5,16 +5,6 @@ let poleDegree = 0;
 const varDegree = 3;
 let ori = false;
 
-pole.addEventListener('mousemove', rotatePole);
-
-window.addEventListener('mousedown', function(){
-    return ori = true;
-});
-window.addEventListener('mouseup', function (){
-    return ori = false;
-});
-
-
 function rotatePole(e){
     if (ori) {
         (e.movementX > 0) ? poleDegree += varDegree : poleDegree -= varDegree;
@@ -27,3 +17,12 @@ function rotatePole(e){
   let pos = (angle < 360) ? dist : -dist; 
  	pic.style.transform = `rotateY(${angle}deg) translateZ(${pos}px)`;
 }); */
+
+pole.addEventListener('mousemove', rotatePole);
+
+window.addEventListener('mousedown', function(){
+    return ori = true;
+});
+window.addEventListener('mouseup', function (){
+    return ori = false;
+});
