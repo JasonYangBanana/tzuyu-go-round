@@ -1,0 +1,111 @@
+body {
+  background-color: #999999; }
+  body .container {
+    margin: 10vh auto 10vh; }
+    body .container a:link {
+      color: #ffffff;
+      text-decoration: none; }
+    body .container a:visited {
+      color: #ffffff; }
+    body .container a:hover {
+      color: #999999;
+      background-color: #ffffff;
+      text-decoration: none; }
+    body .container a:active {
+      color: #ffffff;
+      background-color: #999999; }
+
+.button {
+  border: 1px solid white;
+  width: 234px;
+  height: 86px;
+  border-radius: 50px; }
+
+.container {
+  width: 95vw;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .container .stage {
+    width: 95vw;
+    min-height: 80vh;
+    background-color: #ffffff;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .container .stage .pole {
+      width: 320px;
+      height: 240px;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      position: relative;
+      -webkit-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      -webkit-transition: -webkit-transform 1s;
+      transition: -webkit-transform 1s;
+      -o-transition: transform 1s;
+      transition: transform 1s;
+      transition: transform 1s, -webkit-transform 1s; }
+      .container .stage .pole .pic {
+        width: 320px;
+        height: 240px;
+        position: absolute;
+        -webkit-transition: -webkit-transform ease-in-out 1s;
+        transition: -webkit-transform ease-in-out 1s;
+        -o-transition: transform ease-in-out 1s;
+        transition: transform ease-in-out 1s;
+        transition: transform ease-in-out 1s, -webkit-transform ease-in-out 1s;
+        border-radius: 10px;
+        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+      .container .stage .pole .pic1 {
+        -webkit-transform: rotateY(0deg) translateZ(500px);
+        transform: rotateY(0deg) translateZ(500px);
+        background: url(http://imgs.nmplus.hk/wp-content/uploads/2016/06/tumblr_o97n1y0Ukv1v1wozfo2_1280.jpg) center center/120% no-repeat; }
+      .container .stage .pole .pic2 {
+        -webkit-transform: rotateY(40deg) translateZ(500px);
+        transform: rotateY(40deg) translateZ(500px);
+        background: url(https://s.yimg.com/ny/api/res/1.2/tQkJef1Xvc5y1yPu3Vy0kg--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/zh-Hant-TW/homerun/nownews.com/bd6326306da618ceaafc1caea9ef678b) center center/140% no-repeat; }
+      .container .stage .pole .pic3 {
+        -webkit-transform: rotateY(80deg) translateZ(500px);
+        transform: rotateY(80deg) translateZ(500px);
+        background: url(http://img.showwall.com/wp/chou_tzu_yu/free/327434.jpg) center center/100% no-repeat; }
+      .container .stage .pole .pic4 {
+        -webkit-transform: rotateY(120deg) translateZ(500px);
+        transform: rotateY(120deg) translateZ(500px);
+        background: url(https://3.bp.blogspot.com/-Ag59Z4nKikY/VxnR14U4fYI/AAAAAAAB2rk/xVXYFjm7nWozOQ-j1rfB3XBtsOdEBJBKQCLcB/s1600/tzuyu4.jpg) center center/100% no-repeat; }
+      .container .stage .pole .pic5 {
+        -webkit-transform: rotateY(160deg) translateZ(500px);
+        transform: rotateY(160deg) translateZ(500px);
+        background: url(http://img.phinf.pholar.net/20160620_300/1466384683026NAojv_JPEG/p?type=w1080_jpg) center center/100% no-repeat; }
+      .container .stage .pole .pic6 {
+        -webkit-transform: rotateY(200deg) translateZ(500px);
+        transform: rotateY(200deg) translateZ(500px);
+        background: url(https://imagelab.nownews.com/?w=1080&q=85&src=http://s.nownews.com/c4/09/c409e08ee7b0f8abde47c0533bec376f.png) center center/100% no-repeat; }
+      .container .stage .pole .pic7 {
+        -webkit-transform: rotateY(240deg) translateZ(500px);
+        transform: rotateY(240deg) translateZ(500px);
+        background: url(http://www.koogle.tv/static/media/uploads/news/160425_twice_01.png) center center/130% no-repeat; }
+      .container .stage .pole .pic8 {
+        -webkit-transform: rotateY(280deg) translateZ(500px);
+        transform: rotateY(280deg) translateZ(500px);
+        background: url(https://imagelab.nownews.com/?w=1080&q=85&src=https://rssimg.nownews.com/images/59d455008157326555f25f8a_201710041126.png) center center/140% no-repeat; }
+      .container .stage .pole .pic9 {
+        -webkit-transform: rotateY(320deg) translateZ(500px);
+        transform: rotateY(320deg) translateZ(500px);
+        background: url(http://papers.co/wallpaper/papers.co-ho99-christmas-girl-twice-tzuyu-happy-6-wallpaper.jpg) center center/100% no-repeat; }
