@@ -65,11 +65,11 @@ body {
         width: 320px;
         height: 240px;
         position: absolute;
-        -webkit-transition: -webkit-transform ease-in-out 1s;
-        transition: -webkit-transform ease-in-out 1s;
-        -o-transition: transform ease-in-out 1s;
-        transition: transform ease-in-out 1s;
-        transition: transform ease-in-out 1s, -webkit-transform ease-in-out 1s;
+        -webkit-transition: -webkit-transform ease-out 1s;
+        transition: -webkit-transform ease-out 1s;
+        -o-transition: transform ease-out 1s;
+        transition: transform ease-out 1s;
+        transition: transform ease-out 1s, -webkit-transform ease-out 1s;
         border-radius: 10px;
         -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
