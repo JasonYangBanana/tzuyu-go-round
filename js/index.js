@@ -3,10 +3,10 @@ const pole = document.querySelector('.pole');
 // const pics = document.querySelectorAll('.pic');
 let poleDegree = 0;
 const varDegree = 3;
-let ori = false;
+let oriSwitch = false;
 
 function rotatePole(e){
-    if (ori) {
+    if (oriSwitch) {
         (e.movementX > 0) ? poleDegree += varDegree : poleDegree -= varDegree;
         pole.style.transform = `rotateY(${poleDegree}deg)`;
     }
@@ -21,8 +21,8 @@ function rotatePole(e){
 pole.addEventListener('mousemove', rotatePole);
 
 window.addEventListener('mousedown', function(){
-    return ori = true;
+    return oriSwitch = true;
 });
 window.addEventListener('mouseup', function (){
-    return ori = false;
+    return oriSwitch = false;
 });
